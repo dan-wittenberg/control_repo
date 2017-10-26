@@ -29,4 +29,21 @@ node default {
   # This is where you can declare classes for all nodes.
   # Example:
   #   class { 'my_class': }
+
+  # I make the assumption that a trusted classification should be first
+  $role = lookup('role', Variant[Array[String], String], 'first', 'undefined')
+
+  if($trusted['extensions']['pp_role']) {
+    include $trusted['extensions']['pp_role']
+  } elsif ($role != 'undefined') {
+    include $role
+  } else {
+    notify { 'No role defined!': }
+  }
 }
+
+# Let's try to create a top-level variable for the role
+if($trusted['extensions']['pp_role']) {
+  $pe_role = regsubst($trusted['extensions']['pp_role'],'role::','')
+}
+
