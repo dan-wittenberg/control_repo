@@ -18,6 +18,7 @@ mod 'puppetlabs-stdlib', '4.20.0'
 mod 'puppetlabs-tagmail', '2.3.0'
 mod 'puppetlabs-wsus_client', '1.0.3'
 
+mod 'puppet-hiera', '3.3.1'
 mod 'puppet-selinux', '1.3.0'
 mod 'puppet-windows_env', '2.3.0'
 mod 'puppet-windows_firewall', '1.1.0'
@@ -27,6 +28,7 @@ mod 'herculesteam-augeasproviders_grub', '3.0.0'
 mod 'herculesteam-augeasproviders_shellvar', '2.2.2'
 mod 'herculesteam-augeasproviders_sysctl', '2.2.0'
 
+mod 'WhatsARanjit-node_manager', '0.6.0'
 
 # Local modules here
 moduledir 'modules'
@@ -35,3 +37,6 @@ moduledir 'modules'
 #  :git => 'git@git.example.com:Organization/sample.git',
 #  :tag => '0.1.0'
 
+#mod 'my_other_app',
+#  :git => 'git@git.example.com:Organization/sample.git',
+#  :branch => 'master'
