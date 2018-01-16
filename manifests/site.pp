@@ -42,7 +42,7 @@ node default {
   }
 }
 
-# Let's try to create a top-level variable for the role
+# Let's create a top-level variable for the role so we can use in motd or others
 if($trusted['extensions']['pp_role']) {
   $pe_role = regsubst($trusted['extensions']['pp_role'],'role::','')
 }
