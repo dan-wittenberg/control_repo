@@ -16,6 +16,7 @@ mod 'puppetlabs-reboot', '1.2.1'
 mod 'puppetlabs-registry', '1.1.4'
 mod 'puppetlabs-stdlib', '4.20.0'
 mod 'puppetlabs-tagmail', '2.3.0'
+mod 'puppetlabs-vcsrepo', '2.3.0'
 mod 'puppetlabs-wsus_client', '1.0.3'
 
 mod 'puppet-selinux', '1.3.0'
