@@ -1,2 +1,9 @@
 ---
-message: "This node is using common data"
+# PE Java Memory settings, double them now to avoid issues longer
+puppet_enterprise::profile::console::java_args: {"Xmx": "512m", "Xms": "512m"}
+puppet_enterprise::profile::master::java_args: {"Xmx": "4096m", "Xms": "4096m"}
+puppet_enterprise::profile::orchestrator::java_args: {"Xmx": "1000m", "Xms": "1000m"}
+puppet_enterprise::profile::puppetdb::java_args: {"Xmx": "512m", "Xms": "512m"}
+puppet_enterprise::profile::amq::broker::java_args: {"Xmx": "1024m", "Xms": "1024m"}
+
+
