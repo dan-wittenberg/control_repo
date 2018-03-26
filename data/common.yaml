@@ -6,4 +6,9 @@ puppet_enterprise::profile::orchestrator::java_args: {"Xmx": "1000m", "Xms": "10
 puppet_enterprise::profile::puppetdb::java_args: {"Xmx": "512m", "Xms": "512m"}
 puppet_enterprise::profile::amq::broker::java_args: {"Xmx": "1024m", "Xms": "1024m"}
 
+# Use this parameter to set the time-to-live value before PE automatically
+# deletes nodes that have been deactivated or expired. This will also delete all
+# facts, catalogs, and reports for the relevant nodes.
+puppet_enterprise::profile::puppetdb::node_purge_ttl: '14d'
+
 
