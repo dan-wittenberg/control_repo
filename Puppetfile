@@ -8,8 +8,8 @@ moduledir 'thirdparty-modules'
 mod 'ayohrling-local_security_policy', '0.6.2'
 mod 'puppetlabs-acl', '2.0.1'
 mod 'puppetlabs-dsc', '1.5.0'
-mod 'puppetlabs-powershell', '2.1.3'
-mod 'puppet-windows_env', '3.0.0'
+mod 'puppetlabs-powershell', '2.1.4'
+mod 'puppet-windows_env', '3.1.0'
 mod 'puppet-windows_firewall', '2.0.0'
 
 mod 'puppetlabs-concat', '4.2.0'
@@ -26,7 +26,7 @@ mod 'puppetlabs-tagmail', '2.4.0'
 mod 'puppetlabs-vcsrepo', '2.3.0'
 mod 'puppetlabs-wsus_client', '1.0.3'
 
-mod 'puppet-hiera', '3.3.1'
+mod 'puppet-hiera', '3.3.2'
 mod 'puppet-selinux', '1.5.2'
 
 mod 'herculesteam-augeasproviders_core', '2.1.4'
@@ -40,7 +40,7 @@ mod 'aboe-chrony', '0.1.2'
 mod 'saz-sudo', '5.0.0'
 mod 'saz-timezone', '4.1.1'
 mod 'timidri-meltdown', '0.8.6'
-mod 'WhatsARanjit-node_manager', '0.6.0'
+mod 'WhatsARanjit-node_manager', '0.7.1'
 
 # Local modules here
 moduledir 'modules'
