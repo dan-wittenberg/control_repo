@@ -1,5 +1,7 @@
 ---
 # PE Java Memory settings, double them now to avoid issues longer
+puppet_enterprise::ssl_protocols:
+  - 'TLSv1.2'
 puppet_enterprise::profile::console::java_args: {"Xmx": "512m", "Xms": "512m"}
 puppet_enterprise::profile::master::java_args: {"Xmx": "4096m", "Xms": "4096m"}
 puppet_enterprise::profile::orchestrator::java_args: {"Xmx": "1000m", "Xms": "1000m"}
