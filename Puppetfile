@@ -40,7 +40,7 @@ mod 'herculesteam-augeasproviders_sysctl', '2.2.0'
 mod 'aboe-chrony', '0.1.2'
 mod 'saz-sudo', '5.0.0'
 mod 'saz-timezone', '4.1.1'
-mod 'timidri-meltdown', '0.8.6'
+mod 'timidri-meltdown', '0.9.2'
 mod 'WhatsARanjit-node_manager', '0.7.1'
 
 # Local modules here
