@@ -38,12 +38,15 @@ node default {
   } elsif ($role != 'undefined') {
     include $role
   } else {
-    notify { 'No role defined!': }
+    #notify { 'No role defined!': }
   }
 }
 
 # Let's create a top-level variable for the role so we can use in motd or others
 if($trusted['extensions']['pp_role']) {
   $pe_role = regsubst($trusted['extensions']['pp_role'],'role::','')
+} else {
+  $pe_role = 'undefined'
 }
+
 
