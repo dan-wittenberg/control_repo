@@ -30,6 +30,7 @@ mod 'puppetlabs-wsus_client', '1.0.3'
 mod 'puppet-hiera', '3.3.2'
 mod 'puppet-selinux', '1.5.2'
 
+mod 'herculesteam-augeasproviders_base', '2.0.1'
 mod 'herculesteam-augeasproviders_core', '2.1.4'
 mod 'herculesteam-augeasproviders_grub', '3.0.0'
 mod 'herculesteam-augeasproviders_pam', '2.1.1'
