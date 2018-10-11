@@ -5,6 +5,7 @@ begin
 rescue LoadError => e
   t = Time.new
   puts t.to_i
+  puts e
 else
   environmentpath = ARGV[0]
   environment     = ARGV[1]

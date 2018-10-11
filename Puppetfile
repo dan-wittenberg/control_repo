@@ -38,6 +38,7 @@ mod 'herculesteam-augeasproviders_ssh', '2.5.3'
 mod 'herculesteam-augeasproviders_sysctl', '2.2.0'
 
 mod 'aboe-chrony', '0.1.2'
+mod 'npwalker-pe_databases', '0.14.1'
 mod 'saz-sudo', '5.0.0'
 mod 'saz-timezone', '4.1.1'
 mod 'timidri-meltdown', '0.9.2'
